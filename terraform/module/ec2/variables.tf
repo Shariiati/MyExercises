@@ -1,5 +1,5 @@
 ## Main variables
-variable "disk_store" { default = "datastore1" }
+variable "disk_store" { default = "datastore" }
 variable "boot_disk_type" { default = "thin" }
 variable "power" { default = "off" }
 variable "virthwver" {
