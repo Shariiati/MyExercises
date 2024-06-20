@@ -8,7 +8,7 @@ resource "esxi_guest" "esxi-vm" {
   guestos        = var.guestos
   virthwver      = var.virthwver
   power          = var.power
-  # clone_from_vm      = "ConfigurationManager - 10.10.10.20"
+  # clone_from_vm      = "ConfigurationManager - x.x.x.x"
 
   network_interfaces {
     virtual_network = var.virtual_network_1
