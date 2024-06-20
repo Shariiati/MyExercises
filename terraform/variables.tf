@@ -3,12 +3,12 @@
 #########################################
 
 ## Provider variables
-variable "esxi_hostname" { default = "192.168.100.225" }
-variable "esxi_username" { default = "root" }
-variable "esxi_password" { default = "L83b#@xsE!UgP#TnRNuc" }
+variable "esxi_hostname" { default = "x.x.x.x" }
+variable "esxi_username" { default = "USER" }
+variable "esxi_password" { default = "PASSWORD" }
 
 ## Main variables
-variable "disk_store" { default = "datastore1" }
+variable "disk_store" { default = "datastore" }
 variable "boot_disk_type" { default = "thin" }
 variable "power" { default = "off" }
 variable "virthwver" {
